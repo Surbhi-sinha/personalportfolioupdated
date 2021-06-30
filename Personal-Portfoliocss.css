@@ -1,0 +1,404 @@
+  /* body{
+    /* overflow:hidden; */
+    /* background-color: #e1c759; */
+  /* body{
+    background-image: url("portfoliobackground.jpg");
+    background-size: cover;
+  } */
+ .headerbar{
+   position: absolute; 
+    width:100%;
+    /* background-color: aliceblue; */
+    /* color: black; */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+ }
+ 
+ .navigationbar ul{
+     list-style: none;
+     font-size: medium;
+     color: crimson;
+     position:fixed;
+     z-index: 999;
+     top:0;
+     
+ }
+ .navigationbar li{
+  /* background-color: azure; */
+    float: left;
+     padding: 10px;
+     
+ }
+ .navigationbar li a{
+  text-decoration: none;
+  color:white;
+ }
+ .navigationbar a:hover{
+     color: red;
+     /* background-color:rgb(4, 6, 8); */
+     opacity: 0.7;
+     font-size: larger;
+ }
+ .middleblock1{
+  background-image: url("portfoliobackground1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30% 0.5%;
+ }
+ .middleblock1 :hover{
+  background-color:grey;
+  color: white;
+  opacity: 0.9;
+ }
+ .middleblockdiv1p1{
+     color: black;
+     float: left;
+     width:30%;
+     padding: 2.5%;
+     background-color:white;
+     font-size: larger;
+     margin-left: 10%;
+     font-family: "Sofia", sans-serif;
+     opacity: 0.7;
+ }
+ /* .middleblockdiv1p1 :hover{
+   background-color:grey;
+   color: white;
+ } */
+ 
+   #middleblockdiv1p1id1{
+    border: 5px solid brown;
+    box-shadow: 5px 10px black;
+   }
+   /* #middleblockdiv1p1id1 :hover{
+    background-color:grey;
+    color: white;
+   } */
+   .middleblockdiv1p2{
+    color: black;
+    float: right;
+    width:20%;
+    padding: 2.5%;
+    background-color:white;
+    font-size: larger;
+    margin-right: 10%;
+    font-family: "Sofia", sans-serif;
+    opacity: 0.9;
+    
+}
+.middleblockdiv1p1pre{
+    font-size: larger;
+    margin-right: 10%;
+    padding-bottom: 5;
+    font-family: "Sofia", sans-serif;
+    opacity: 0.9;
+}
+.middleblockdiv1p1para{
+  font-size: larger;
+    margin-right: 10%;
+    padding-bottom: 5;
+    font-family: "Sofia", sans-serif;
+    opacity: 0.9;
+}
+
+  .hobbiesheading{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 80px;
+    color: white;
+    text-align:center;
+    padding: 2.5%;
+    
+  }
+  .hobbiesheading :hover{
+    text-shadow: 2px 4px 8px whitesmoke;
+    text-decoration: underline;
+    animation: fadeIn linear 3s;
+    -webkit-animation: fadeIn linear 3s;
+    -moz-animation: fadeIn linear 3s;
+    -o-animation: fadeIn linear 3s;
+    -ms-animation: fadeIn linear 3s;
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  .middleblock2{
+    float: left;
+    width: 100%;
+    height: 40%;
+    background-color: #0A1172;
+    opacity: 0.9;
+    margin-bottom: 10%;
+    display:grid;
+    align-content: start;
+    grid-template-columns: 30% 30% 30%;
+    grid-auto-rows: auto;
+    grid-auto-columns: max-content;
+    justify-content: space-evenly;
+    
+  }
+ 
+  .hobbiesboxes{
+    margin-bottom: 5%;
+    margin-top: 5%;
+    background-color: azure;
+    padding: 2.5%;
+    font-family: 'Lobster', cursive;
+    font-size: large;
+    overflow:hidden;
+    transition:  background-color 2s ease-out 100ms;
+  }
+  
+  .hobbiesboxes:hover {
+    background-color: #f7a308;
+    color: aliceblue;
+  }
+
+  #hobbiesboxes{
+    border: 5px solid cyan;
+   box-shadow: 5px 10px blue;
+  }
+  
+.hobbiestravelimage figure img{
+  -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hobbiestravelimage:hover img{
+  -webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+  .interestedfields{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 80px;
+    color: yellow;
+    margin-bottom: 0%;
+  }
+  .interestedfields :hover{
+    /* background-color: grey; */
+    text-shadow: 2px 4px 8px #f7f30f;
+    text-decoration: underline;
+    animation: fadeIn linear 3s;
+    -webkit-animation: fadeIn linear 3s;
+    -moz-animation: fadeIn linear 3s;
+    -o-animation: fadeIn linear 3s;
+    -ms-animation: fadeIn linear 3s;  
+  }
+  #interestedfieldsboxes{
+    border: 5px solid red;
+   box-shadow: 5px 10px yellow;
+   overflow:hidden;
+  }
+  
+  .middleblock4{
+    float: left;
+    width: 100%;
+    height: 40%;
+    /* background-color:orange; */
+    margin-bottom: 10%;
+    display:grid;
+    align-content: start;
+    grid-template-columns: 30% 30% 30%;
+    grid-auto-rows: auto;
+    grid-auto-columns: max-content;
+    justify-content: space-evenly;
+    
+  }
+  .webdev{
+    margin-bottom: 5%;
+    margin-top: 5%;
+    background-color: azure;
+    padding: 2.5%;
+    font-family: 'Lobster', cursive;
+    font-size: large;
+    transition:  background-color 2s ease-out 100ms;
+  }
+  .webdev:hover{
+    background-color: #444243;
+    color: beige;
+  }
+  .androiddev{
+    margin-bottom: 5%;
+    margin-top: 5%;
+    background-color: azure;
+    padding: 2.5%;
+    font-family: 'Lobster', cursive;
+    font-size: large;
+    transition:  background-color 2s ease-out 100ms;
+  }
+  .androiddev:hover{
+    background-color: #444243;
+    color: beige;
+  }
+  .gamedev{
+    margin-bottom: 5%;
+    margin-top: 5%;
+    background-color: azure;
+    padding: 2.5%;
+    font-family: 'Lobster', cursive;
+    font-size: large;
+    transition:  background-color 2s ease-out 100ms;
+  }
+  .gamedev:hover{
+    background-color: #444243;
+    color: beige;
+  }
+  .machinelearning{
+    margin-bottom: 5%;
+    margin-top: 5%;
+    background-color: azure;
+    padding: 2.5%;
+    font-family: 'Lobster', cursive;
+    font-size: large;
+    transition:  background-color 2s ease-out 100ms;
+  }
+  .machinelearning:hover{
+    background-color: #444243;
+    color: beige;
+  }
+  .cybersecurity{
+    margin-bottom: 5%;
+    margin-top: 5%;
+    background-color: azure;
+    padding: 2.5%;
+    font-family: 'Lobster', cursive;
+    font-size: large;
+    transition:  background-color 2s ease-out 100ms;
+  }
+  .cybersecurity:hover{
+    background-color: #444243;
+    color: beige;
+  }
+ 
+  body{
+    background-image: url("bodybackground1.jpg");
+  }
+  .workheading{
+    color:aliceblue;
+    font-size: larger;
+  }
+  .workclass{
+    float: left;
+    width: 100%;
+    height: 40%;
+    background-color:grey;
+    ;
+    /* margin-bottom: 10%; */
+    display:grid;
+    align-content: start;
+    grid-template-columns: 50% 50%;
+    grid-auto-rows: auto;
+    grid-auto-columns: max-content;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+  }
+  .navigationpageimage img{
+    
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+      -webkit-transform: scale(1);
+	    transform: scale(1.5);
+	    -webkit-transition: .3s ease-in-out;
+	    transition: .3s ease-in-out;
+  }
+  .navigationpageimage figure img{
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+  }
+  .navigationpageimage :hover img{
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+  }
+  /* .hobbiestravelimage:hover img{
+  -webkit-transform: scale(1);
+	transform: scale(1);
+} */
+
+  .surveywebpagetesting img{
+    height: 100%;
+  width: 100%;
+  object-fit: contain;
+  }
+  .surveywebpagetesting :hover{
+    transform: scale(1.3);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+ .languages{
+   
+   color: azure;
+   font-weight: 100;
+   padding: 3.5%;
+   /* background-image: url("portfoliolanguagebackgorund.jpg"); */
+   background-color: crimson;
+   opacity:0.7;
+   object-fit: cover;
+   height: 500px;
+   
+
+ }
+ .langheads{
+  list-style: none;
+  font-size: xx-large;
+  line-height: 2;
+  font-family: 'Rubik', sans-serif;
+ }
+ .languages li{
+   list-style: none;
+   font-size: xx-large;
+   line-height: 2;
+   font-family: 'Rubik', sans-serif;
+   animation: fadeIn linear 7s;
+   -webkit-animation: fadeIn linear 7s;
+   -moz-animation: fadeIn linear 7s;
+   -o-animation: fadeIn linear 7s;
+   -ms-animation: fadeIn linear 7s;
+ }
+ .languages li:hover{
+  opacity:100%;
+  transition:opacity 2s;
+  font-size: 50px;
+ }
+ .followheading{
+   font-size: 40px;
+   font-family: 'Akaya Kanadaka', cursive;
+   color: white;
+   padding: 30;
+ }
+ .linkedin{
+  font-size: 40px;
+  font-family: 'Akaya Kanadaka', cursive;
+  color:blue;
+  padding: 30;
+ }
+ .quora{
+  font-size: 40px;
+  font-family: 'Akaya Kanadaka', cursive;
+  color:red;
+  padding: 30;
+ }
