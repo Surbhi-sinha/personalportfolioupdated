@@ -294,7 +294,7 @@
   }
  
   body{
-    background-image: url("bodybackground1.jpg");
+    background-color:black;
   }
   .workheading{
     color:aliceblue;
@@ -384,21 +384,41 @@
   transition:opacity 2s;
   font-size: 50px;
  }
- .followheading{
+.followheading{
    font-size: 40px;
    font-family: 'Akaya Kanadaka', cursive;
    color: white;
    padding: 30;
+   position:fixed;
  }
- .linkedin{
-  font-size: 40px;
-  font-family: 'Akaya Kanadaka', cursive;
-  color:blue;
-  padding: 30;
+ .centerdiv{
+   height:10px;
+   display: flex;
+   justify-content: center;
+   align-items:center;
  }
- .quora{
-  font-size: 40px;
-  font-family: 'Akaya Kanadaka', cursive;
-  color:red;
-  padding: 30;
+ .centerdiv a{
+   height:50px;
+   width:50px;
+   background-color:#ecf0f1;
+   border-radius: 50px;
+   text-align: center;
+   margin:10px;
+   line-height: 51px;
+   box-shadow:1px 4px 2px 2px #7f8c8d;
+ }
+ .centerdiv a i{
+   transition: all 0.3s linear;
+ }
+ .centerdiv a:hover i{
+    transform: scale(2);
+ }
+ .fa-github{
+   color: black;
+ }
+ .fa-linkedin{
+   color:blue;
+ }
+ .fa-quora{
+   color: red;
  }
