@@ -9,7 +9,7 @@
    position: absolute; 
     width:100%;
     /* background-color: aliceblue; */
-    /* color: black; */
+   
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
  }
@@ -21,6 +21,7 @@
      position:fixed;
      z-index: 999;
      top:0;
+	 background-color: #444243;
      
  }
  .navigationbar li{
